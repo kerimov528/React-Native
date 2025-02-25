@@ -40,10 +40,14 @@ function GameStartScreen({ onPickNumber }) {
       />
       <View style={styles.buttonsContainer}>
         <View style={styles.buttonBox}>
-          <PrimaryButton onPress={resetInputHandler}>Reset</PrimaryButton>
+          <PrimaryButton onPress={resetInputHandler}>
+            Reset Button
+          </PrimaryButton>
         </View>
         <View style={styles.buttonBox}>
-          <PrimaryButton onPress={confirmInputOnPress}>Confirm</PrimaryButton>
+          <PrimaryButton onPress={confirmInputOnPress}>
+            Confirm Button
+          </PrimaryButton>
         </View>
       </View>
     </View>
