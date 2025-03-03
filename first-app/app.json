@@ -12,6 +12,8 @@
       "supportsTablet": true
     },
     "android": {
+      "bundler": "metro",
+      "output": "static",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
